@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="4.17.0@6f4707aa41c9174353a6434bba3fc8840f981d9c">
+<files psalm-version="4.8.0@0a57c865499049527b3e1c47f14abea761d94b83">
   <file src="3rdparty/sabre/dav/lib/CalDAV/Calendar.php">
     <MoreSpecificImplementedParamType occurrences="1">
       <code>$calendarData</code>
@@ -1058,9 +1058,6 @@
     <InvalidThrow occurrences="1">
       <code>throw $exception;</code>
     </InvalidThrow>
-    <RedundantCondition occurrences="1">
-      <code>$userSession</code>
-    </RedundantCondition>
   </file>
   <file src="apps/encryption/lib/Recovery.php">
     <InvalidScalarArgument occurrences="3">
@@ -1068,9 +1065,6 @@
       <code>0</code>
       <code>1</code>
     </InvalidScalarArgument>
-    <RedundantCondition occurrences="1">
-      <code>$userSession</code>
-    </RedundantCondition>
   </file>
   <file src="apps/encryption/lib/Session.php">
     <TooManyArguments occurrences="1">
@@ -3866,7 +3860,6 @@
       <code>null</code>
     </NullableReturnStatement>
     <RedundantCondition occurrences="3">
-      <code>$data</code>
       <code>$result &amp;&amp; in_array('delete', $hooks) and $result</code>
       <code>is_resource($source)</code>
     </RedundantCondition>
@@ -3956,9 +3949,6 @@
     <NullArgument occurrences="1">
       <code>null</code>
     </NullArgument>
-    <RedundantCondition occurrences="1">
-      <code>$archive</code>
-    </RedundantCondition>
   </file>
   <file src="lib/private/IntegrityCheck/Checker.php">
     <InvalidArrayAccess occurrences="3">
