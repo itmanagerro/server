@@ -694,7 +694,7 @@ class QueryBuilder implements IQueryBuilder {
 	 *         ->from('users', 'u')
 	 * </code>
 	 *
-	 * @param string $from The table.
+	 * @param string|IQueryFunction $from The table.
 	 * @param string|null $alias The alias of the table.
 	 *
 	 * @return $this This QueryBuilder instance.
