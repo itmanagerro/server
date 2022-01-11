@@ -254,7 +254,7 @@ class MailPlugin implements ISearchPlugin {
 		if (!$searchResult->hasExactIdMatch($emailType) && filter_var($searchIdn, FILTER_VALIDATE_EMAIL)) {
 			$result['exact'][] = [
 				'label' => $search,
-				'uuid' => $searchIdn,
+				'uuid' => $search,
 				'value' => [
 					'shareType' => IShare::TYPE_EMAIL,
 					'shareWith' => $search,
