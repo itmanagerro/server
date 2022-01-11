@@ -28,6 +28,7 @@ namespace OCA\User_LDAP\Migration;
 
 use Closure;
 use OCP\DB\ISchemaWrapper;
+use OCP\DB\Types;
 use OCP\Migration\IOutput;
 
 class Version1130Date20220110154718 extends GroupMappingMigration {
