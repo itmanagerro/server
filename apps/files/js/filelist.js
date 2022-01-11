@@ -794,7 +794,7 @@
 				if( (this._currentDirectory || this.$el.find('#dir').val()) && currentDir === e.dir) {
 					return;
 				}
-				this.changeDirectory(e.dir, false, true);
+				this.changeDirectory(e.dir, true, true);
 			}
 		},
 
